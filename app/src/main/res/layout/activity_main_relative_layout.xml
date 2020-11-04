@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/holo_green_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titulo_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo de la actividad"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <TextView
+        android:id="@+id/subtitulo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Este es un subtitulo"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_orange_light"
+        android:layout_below="@id/titulo_text_view"
+        />
+
+    <TextView
+        android:id="@+id/parrafo1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        android:layout_below="@id/subtitulo_tv"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        android:layout_below="@id/parrafo1_tv"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" previous"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next "
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

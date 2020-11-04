@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/holo_green_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutContainer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Bienvenido al curso de Android Kotlin!!"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El nombre del instructor es: Alejandro Rincon"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutContainer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Bienvenido al curso de Android:"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Angel, Damian, Enrique, Javier, Jesus y Reymundo"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_change_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cambiar vista"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:onClick="changeView"
+        />
+
+</FrameLayout>
